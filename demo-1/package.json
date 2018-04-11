@@ -20,7 +20,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "dev": "NODE_ENV=development webpack-dev-server --content-base src --host $IP --port $PORT --config webpack.config.js --progress --hot"
+    "dev": "NODE_ENV=development webpack-dev-server --content-base src --host $IP --port $PORT --config webpack.config.js --progress --hot --public $C9_HOSTNAME"
   },
   "author": "",
   "license": "ISC"
